@@ -31,7 +31,7 @@
         TAP: TAP {
             compatible = "zmk,behavior-hold-tap";
             label = "TAP";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <3000>;
@@ -54,10 +54,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R  &kp T      &kp Y          &kp U  &kp I      &kp O    &kp P
-&kp A  &kp S  &kp D  &kp F  &kp G      &kp H          &kp J  &kp K      &kp L    &kp SEMI
-&kp Z  &kp X  &kp C  &kp V  &kp B      &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH
-                     &mo 1  &kp SPACE  &kp BACKSPACE  &mo 2
+&HOLD LEFT_SHIFT Q  &BAL LEFT_SHIFT W  &TAP LEFT_SHIFT E  &TAPUNLESS LEFT_SHIFT R  &kp T      &kp Y          &kp U  &kp I      &kp O    &kp P
+&kp A               &kp S              &kp D              &kp F                    &kp G      &kp H          &kp J  &kp K      &kp L    &kp SEMI
+&kp Z               &kp X              &kp C              &kp V                    &kp B      &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH
+                                                          &mo 1                    &kp SPACE  &kp BACKSPACE  &mo 2
             >;
         };
 
