@@ -8,6 +8,47 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        HOLD: HOLD {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <3000>;
+        };
+
+        BAL: BAL {
+            compatible = "zmk,behavior-hold-tap";
+            label = "BAL";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <3000>;
+            flavor = "balanced";
+        };
+
+        TAP: TAP {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAP";
+            bindings = <&none>, <&none>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <3000>;
+            flavor = "tap-preferred";
+        };
+
+        TAPUNLESS: TAPUNLESS {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAPUNLESS";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-unless-interrupted";
+            tapping-term-ms = <3000>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
