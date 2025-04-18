@@ -49,6 +49,51 @@
             bindings = <&kp F1>;
             key-positions = <0 10>;
         };
+
+        f2 {
+            bindings = <&kp F2>;
+            key-positions = <1 11>;
+        };
+
+        f3 {
+            bindings = <&kp F3>;
+            key-positions = <2 12>;
+        };
+
+        f4 {
+            bindings = <&kp F4>;
+            key-positions = <3 13>;
+        };
+
+        f5 {
+            bindings = <&kp F5>;
+            key-positions = <4 14>;
+        };
+
+        f6 {
+            bindings = <&kp F6>;
+            key-positions = <5 15>;
+        };
+
+        f7 {
+            bindings = <&kp F7>;
+            key-positions = <6 16>;
+        };
+
+        f8 {
+            bindings = <&kp F8>;
+            key-positions = <7 17>;
+        };
+
+        f9 {
+            bindings = <&kp F9>;
+            key-positions = <8 18>;
+        };
+
+        f10 {
+            bindings = <&kp F10>;
+            key-positions = <9 19>;
+        };
     };
 
     keymap {
