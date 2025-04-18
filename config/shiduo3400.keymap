@@ -20,14 +20,18 @@
             flavor = "tap-preferred";
         };
 
-        CONFIG: CONFIG {
-            compatible = "zmk,behavior-hold-tap";
-            label = "CONFIG";
-            bindings = <&mo>, <&kp>;
+        tapDance_Bracket: tapDance_Bracket {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAPDANCE_BRACKET";
+            #binding-cells = <0>;
+            bindings = <&kp LBKT>, <&kp RBKT>;
+        };
 
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <800>;
+        tapDance_Parenthesis: tapDance_Parenthesis {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAPDANCE_PARENTHESIS";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
         };
     };
 
@@ -36,7 +40,7 @@
 
         bootloader {
             bindings = <&bootloader>;
-            key-positions = <30 31 32 33>;
+            key-positions = <9 19 29>;
             layers = <2>;
         };
 
@@ -148,6 +152,11 @@
         COMBO_ASTERISK {
             bindings = <&kp ASTERISK>;
             key-positions = <8 7>;
+        };
+
+        MO_CONFIG_LAYER {
+            bindings = <&mo 2>;
+            key-positions = <30 31 32 33>;
         };
     };
 
