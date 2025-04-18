@@ -39,6 +39,16 @@
             key-positions = <30 31 32 33>;
             layers = <2>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <1 2>;
+        };
+
+        f1 {
+            bindings = <&kp F1>;
+            key-positions = <0 10>;
+        };
     };
 
     keymap {
