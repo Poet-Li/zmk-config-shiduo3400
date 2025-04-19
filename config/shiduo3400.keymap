@@ -215,11 +215,6 @@
             key-positions = <32 26>;
         };
 
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <2 11>;
-        };
-
         home {
             bindings = <&kp HOME>;
             key-positions = <20 21>;
@@ -278,6 +273,16 @@
         mute {
             bindings = <&kp C_MUTE>;
             key-positions = <26 16>;
+        };
+
+        comboEsc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <2 11>;
+        };
+
+        EandC {
+            bindings = <&kp ESCAPE>;
+            key-positions = <2 22>;
         };
     };
 
