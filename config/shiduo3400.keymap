@@ -259,6 +259,11 @@
             bindings = <&kp LEFT_GUI>;
             key-positions = <14 15>;
         };
+
+        toggleAlterLayer {
+            bindings = <&tog 1>;
+            key-positions = <30 23>;
+        };
     };
 
     keymap {
