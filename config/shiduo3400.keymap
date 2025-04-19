@@ -33,6 +33,13 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
         };
+
+        tapDance_Brace: tapDance_Brace {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAPDANCE_BRACE";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
+        };
     };
 
     combos {
@@ -157,6 +164,21 @@
         MO_CONFIG_LAYER {
             bindings = <&mo 2>;
             key-positions = <30 31 32 33>;
+        };
+
+        COMBO_PARENTHESIS {
+            bindings = <&tapDance_Parenthesis>;
+            key-positions = <8 9>;
+        };
+
+        COMBO_BRACKET {
+            bindings = <&tapDance_Bracket>;
+            key-positions = <18 19>;
+        };
+
+        COMBO_BRACE {
+            bindings = <&tapDance_Brace>;
+            key-positions = <29 28>;
         };
     };
 
