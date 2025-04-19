@@ -264,6 +264,21 @@
             bindings = <&tog 1>;
             key-positions = <30 23>;
         };
+
+        volumeDown {
+            bindings = <&kp C_VOLUME_DOWN>;
+            key-positions = <27 17>;
+        };
+
+        volumeUp {
+            bindings = <&kp C_VOLUME_UP>;
+            key-positions = <28 18>;
+        };
+
+        mute {
+            bindings = <&kp C_MUTE>;
+            key-positions = <26 16>;
+        };
     };
 
     keymap {
