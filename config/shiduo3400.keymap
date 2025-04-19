@@ -133,6 +133,7 @@
         COMBO_AMPERSAND {
             bindings = <&kp AMPERSAND>;
             key-positions = <6 7>;
+            timeout-ms = <30>;
         };
 
         COMBO_ASTERISK {
@@ -277,12 +278,7 @@
 
         comboEsc {
             bindings = <&kp ESCAPE>;
-            key-positions = <2 11>;
-        };
-
-        EandC {
-            bindings = <&kp ESCAPE>;
-            key-positions = <2 22>;
+            key-positions = <2 0 1>;
         };
     };
 
