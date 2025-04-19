@@ -180,6 +180,46 @@
             bindings = <&tapDance_Brace>;
             key-positions = <29 28>;
         };
+
+        COMBO_SEMICOLON {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <9 18>;
+        };
+
+        COMBO_COLON {
+            bindings = <&kp COLON>;
+            key-positions = <8 17>;
+        };
+
+        COMBO_DOUBLE_QUOTES {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <7 16>;
+        };
+
+        COMBO_SINGLE_QUOTE {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <15 6>;
+        };
+
+        COMBO_MINUS {
+            bindings = <&kp MINUS>;
+            key-positions = <0 11>;
+        };
+
+        COMBO_UNDERSCORE {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <1 12>;
+        };
+
+        COMBO_EQUAL {
+            bindings = <&kp EQUAL>;
+            key-positions = <2 13>;
+        };
+
+        COMBO_PLUS {
+            bindings = <&kp PLUS>;
+            key-positions = <3 14>;
+        };
     };
 
     keymap {
