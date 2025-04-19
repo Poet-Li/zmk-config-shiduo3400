@@ -214,6 +214,51 @@
             bindings = <&kp RBRC>;
             key-positions = <32 26>;
         };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <2 11>;
+        };
+
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <20 21>;
+        };
+
+        end {
+            bindings = <&kp END>;
+            key-positions = <29 28>;
+        };
+
+        pgup {
+            bindings = <&kp PG_UP>;
+            key-positions = <21 22>;
+        };
+
+        pgdn {
+            bindings = <&kp PG_DN>;
+            key-positions = <28 27>;
+        };
+
+        capslock {
+            bindings = <&kp CAPS>;
+            key-positions = <33 26>;
+        };
+
+        ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <0 9>;
+        };
+
+        alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <13 16>;
+        };
+
+        gui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <14 15>;
+        };
     };
 
     keymap {
