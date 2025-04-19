@@ -19,27 +19,6 @@
             tapping-term-ms = <3000>;
             flavor = "tap-preferred";
         };
-
-        tapDance_Bracket: tapDance_Bracket {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAPDANCE_BRACKET";
-            #binding-cells = <0>;
-            bindings = <&kp LBKT>, <&kp RBKT>;
-        };
-
-        tapDance_Parenthesis: tapDance_Parenthesis {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAPDANCE_PARENTHESIS";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
-        };
-
-        tapDance_Brace: tapDance_Brace {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAPDANCE_BRACE";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
-        };
     };
 
     combos {
@@ -166,21 +145,6 @@
             key-positions = <30 31 32 33>;
         };
 
-        COMBO_PARENTHESIS {
-            bindings = <&tapDance_Parenthesis>;
-            key-positions = <8 9>;
-        };
-
-        COMBO_BRACKET {
-            bindings = <&tapDance_Bracket>;
-            key-positions = <18 19>;
-        };
-
-        COMBO_BRACE {
-            bindings = <&tapDance_Brace>;
-            key-positions = <29 28>;
-        };
-
         COMBO_SEMICOLON {
             bindings = <&kp SEMICOLON>;
             key-positions = <9 18>;
@@ -193,12 +157,12 @@
 
         COMBO_DOUBLE_QUOTES {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <7 16>;
+            key-positions = <26 17>;
         };
 
         COMBO_SINGLE_QUOTE {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <15 6>;
+            key-positions = <27 18>;
         };
 
         COMBO_MINUS {
@@ -213,12 +177,42 @@
 
         COMBO_EQUAL {
             bindings = <&kp EQUAL>;
-            key-positions = <2 13>;
+            key-positions = <11 22>;
         };
 
         COMBO_PLUS {
             bindings = <&kp PLUS>;
+            key-positions = <12 23>;
+        };
+
+        COMBO_LPAR {
+            bindings = <&kp LPAR>;
             key-positions = <3 14>;
+        };
+
+        COMBO_RPAR {
+            bindings = <&kp RPAR>;
+            key-positions = <6 15>;
+        };
+
+        COMBO_LBKT {
+            bindings = <&kp LBKT>;
+            key-positions = <13 24>;
+        };
+
+        COMBO_RBKT {
+            bindings = <&kp RBKT>;
+            key-positions = <16 25>;
+        };
+
+        COMBO_LBRC {
+            bindings = <&kp LBRC>;
+            key-positions = <23 31>;
+        };
+
+        COMBO_RBRC {
+            bindings = <&kp RBRC>;
+            key-positions = <32 26>;
         };
     };
 
