@@ -158,12 +158,12 @@
 
         COMBO_DOUBLE_QUOTES {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <26 17>;
+            key-positions = <16 7>;
         };
 
         COMBO_SINGLE_QUOTE {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <27 18>;
+            key-positions = <17 26>;
         };
 
         COMBO_MINUS {
@@ -178,7 +178,7 @@
 
         COMBO_EQUAL {
             bindings = <&kp EQUAL>;
-            key-positions = <11 22>;
+            key-positions = <13 2>;
         };
 
         COMBO_PLUS {
@@ -273,12 +273,32 @@
 
         mute {
             bindings = <&kp C_MUTE>;
-            key-positions = <26 16>;
+            key-positions = <27 28>;
         };
 
         comboEsc {
             bindings = <&kp ESCAPE>;
             key-positions = <2 0 1>;
+        };
+
+        combo_BACKSLASH {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <16 26>;
+        };
+
+        combo_PIPE {
+            bindings = <&kp PIPE>;
+            key-positions = <15 25>;
+        };
+
+        combo_GRAVE {
+            bindings = <&kp GRAVE>;
+            key-positions = <13 23>;
+        };
+
+        combo_TILDE {
+            bindings = <&kp TILDE>;
+            key-positions = <14 24>;
         };
     };
 
