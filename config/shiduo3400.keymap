@@ -24,6 +24,137 @@
     combos {
         compatible = "zmk,combos";
 
+        COMBO_EXCLAMATION {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <0 1>;
+        };
+
+        COMBO_AT_ {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <1 2>;
+        };
+
+        COMBO_HASH {
+            bindings = <&kp HASH>;
+            key-positions = <2 3>;
+        };
+
+        COMBO_DOLLAR {
+            bindings = <&kp DOLLAR>;
+            key-positions = <3 4>;
+        };
+
+        COMBO_PERCENT {
+            bindings = <&kp PERCENT>;
+            key-positions = <4 5>;
+        };
+
+        COMBO_CARET {
+            bindings = <&kp CARET>;
+            key-positions = <6 5>;
+        };
+
+        COMBO_AMPERSAND {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <6 7>;
+            timeout-ms = <30>;
+        };
+
+        COMBO_ASTERISK {
+            bindings = <&kp ASTERISK>;
+            key-positions = <8 7>;
+        };
+
+        COMBO_SEMICOLON {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <9 18>;
+        };
+
+        COMBO_COLON {
+            bindings = <&kp COLON>;
+            key-positions = <8 17>;
+        };
+
+        COMBO_DOUBLE_QUOTES {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <16 7>;
+        };
+
+        COMBO_SINGLE_QUOTE {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <17 26>;
+        };
+
+        COMBO_MINUS {
+            bindings = <&kp MINUS>;
+            key-positions = <0 11>;
+        };
+
+        COMBO_UNDERSCORE {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <1 12>;
+        };
+
+        COMBO_EQUAL {
+            bindings = <&kp EQUAL>;
+            key-positions = <13 2>;
+        };
+
+        COMBO_PLUS {
+            bindings = <&kp PLUS>;
+            key-positions = <12 23>;
+        };
+
+        COMBO_LPAR {
+            bindings = <&kp LPAR>;
+            key-positions = <3 14>;
+        };
+
+        COMBO_RPAR {
+            bindings = <&kp RPAR>;
+            key-positions = <6 15>;
+        };
+
+        COMBO_LBKT {
+            bindings = <&kp LBKT>;
+            key-positions = <13 24>;
+        };
+
+        COMBO_RBKT {
+            bindings = <&kp RBKT>;
+            key-positions = <16 25>;
+        };
+
+        COMBO_LBRC {
+            bindings = <&kp LBRC>;
+            key-positions = <23 31>;
+        };
+
+        COMBO_RBRC {
+            bindings = <&kp RBRC>;
+            key-positions = <32 26>;
+        };
+
+        combo_BACKSLASH {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <16 26>;
+        };
+
+        combo_PIPE {
+            bindings = <&kp PIPE>;
+            key-positions = <15 25>;
+        };
+
+        combo_GRAVE {
+            bindings = <&kp GRAVE>;
+            key-positions = <13 23>;
+        };
+
+        combo_TILDE {
+            bindings = <&kp TILDE>;
+            key-positions = <14 24>;
+        };
+        
         bootloader {
             bindings = <&bootloader>;
             key-positions = <9 19 29>;
@@ -100,120 +231,9 @@
             key-positions = <32 25>;
         };
 
-        COMBO_EXCLAMATION {
-            bindings = <&kp EXCLAMATION>;
-            key-positions = <0 1>;
-        };
-
-        COMBO_AT_ {
-            bindings = <&kp AT_SIGN>;
-            key-positions = <1 2>;
-        };
-
-        COMBO_HASH {
-            bindings = <&kp HASH>;
-            key-positions = <2 3>;
-        };
-
-        COMBO_DOLLAR {
-            bindings = <&kp DOLLAR>;
-            key-positions = <3 4>;
-        };
-
-        COMBO_PERCENT {
-            bindings = <&kp PERCENT>;
-            key-positions = <4 5>;
-        };
-
-        COMBO_CARET {
-            bindings = <&kp CARET>;
-            key-positions = <6 5>;
-        };
-
-        COMBO_AMPERSAND {
-            bindings = <&kp AMPERSAND>;
-            key-positions = <6 7>;
-            timeout-ms = <30>;
-        };
-
-        COMBO_ASTERISK {
-            bindings = <&kp ASTERISK>;
-            key-positions = <8 7>;
-        };
-
         MO_CONFIG_LAYER {
             bindings = <&mo 2>;
             key-positions = <30 31 32 33>;
-        };
-
-        COMBO_SEMICOLON {
-            bindings = <&kp SEMICOLON>;
-            key-positions = <9 18>;
-        };
-
-        COMBO_COLON {
-            bindings = <&kp COLON>;
-            key-positions = <8 17>;
-        };
-
-        COMBO_DOUBLE_QUOTES {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <16 7>;
-        };
-
-        COMBO_SINGLE_QUOTE {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <17 26>;
-        };
-
-        COMBO_MINUS {
-            bindings = <&kp MINUS>;
-            key-positions = <0 11>;
-        };
-
-        COMBO_UNDERSCORE {
-            bindings = <&kp UNDERSCORE>;
-            key-positions = <1 12>;
-        };
-
-        COMBO_EQUAL {
-            bindings = <&kp EQUAL>;
-            key-positions = <13 2>;
-        };
-
-        COMBO_PLUS {
-            bindings = <&kp PLUS>;
-            key-positions = <12 23>;
-        };
-
-        COMBO_LPAR {
-            bindings = <&kp LPAR>;
-            key-positions = <3 14>;
-        };
-
-        COMBO_RPAR {
-            bindings = <&kp RPAR>;
-            key-positions = <6 15>;
-        };
-
-        COMBO_LBKT {
-            bindings = <&kp LBKT>;
-            key-positions = <13 24>;
-        };
-
-        COMBO_RBKT {
-            bindings = <&kp RBKT>;
-            key-positions = <16 25>;
-        };
-
-        COMBO_LBRC {
-            bindings = <&kp LBRC>;
-            key-positions = <23 31>;
-        };
-
-        COMBO_RBRC {
-            bindings = <&kp RBRC>;
-            key-positions = <32 26>;
         };
 
         home {
@@ -281,25 +301,6 @@
             key-positions = <2 0 1>;
         };
 
-        combo_BACKSLASH {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <16 26>;
-        };
-
-        combo_PIPE {
-            bindings = <&kp PIPE>;
-            key-positions = <15 25>;
-        };
-
-        combo_GRAVE {
-            bindings = <&kp GRAVE>;
-            key-positions = <13 23>;
-        };
-
-        combo_TILDE {
-            bindings = <&kp TILDE>;
-            key-positions = <14 24>;
-        };
     };
 
     keymap {
