@@ -154,7 +154,7 @@
             bindings = <&kp TILDE>;
             key-positions = <14 24>;
         };
-        
+
         bootloader {
             bindings = <&bootloader>;
             key-positions = <9 19 29>;
@@ -293,14 +293,13 @@
 
         muteVolume {
             bindings = <&kp C_MUTE>;
-            key-positions = <27 28>;
+            key-positions = <19 29>;
         };
 
         comboEsc {
             bindings = <&kp ESCAPE>;
             key-positions = <2 0 1>;
         };
-
     };
 
     keymap {
