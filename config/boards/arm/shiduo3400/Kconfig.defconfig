@@ -21,7 +21,4 @@ endif # USB
 config BT_CTLR
 	default BT
 
-config ZMK_BATTERY_VOLTAGE_DIVIDER
-	default y
-
 endif # BOARD_SHIDUO3400
