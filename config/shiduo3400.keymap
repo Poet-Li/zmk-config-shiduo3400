@@ -263,12 +263,12 @@
 
         ctrl {
             bindings = <&kp LCTRL>;
-            key-positions = <23 26>;
+            key-positions = <13 16>;
         };
 
         alt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <13 16>;
+            key-positions = <23 26>;
         };
 
         gui {
@@ -308,8 +308,8 @@
         default_layer {
             bindings = <
 &kp Q  &kp W  &kp E  &kp R                    &kp T            &kp Y            &kp U                     &kp I      &kp O    &kp P
-&kp A  &kp S  &kp D  &MOD_TAP LALT F          &MOD_TAP LGUI G  &MOD_TAP RGUI H  &MOD_TAP RALT J           &kp K      &kp L    &kp ENTER
-&kp Z  &kp X  &kp C  &MOD_TAP LEFT_CONTROL V  &kp B            &kp N            &MOD_TAP RIGHT_CONTROL M  &kp COMMA  &kp DOT  &kp SLASH
+&kp A  &kp S  &kp D  &MOD_TAP LEFT_CONTROL F  &MOD_TAP LGUI G  &MOD_TAP LGUI H  &MOD_TAP RIGHT_CONTROL J  &kp K      &kp L    &kp ENTER
+&kp Z  &kp X  &kp C  &MOD_TAP LEFT_ALT V      &kp B            &kp N            &MOD_TAP RIGHT_ALT M      &kp COMMA  &kp DOT  &kp SLASH
                      &mo 1                    &kp SPACE        &kp BACKSPACE    &kp LEFT_SHIFT
             >;
         };
