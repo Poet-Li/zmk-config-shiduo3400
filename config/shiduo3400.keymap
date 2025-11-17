@@ -317,8 +317,8 @@
         alter_layer {
             bindings = <
 &trans    &kp UP    &trans     &trans  &trans  &trans  &kp N7                     &kp N8  &kp N9  &trans
-&kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &MOD_TAP RALT N4           &kp N5  &kp N6  &trans
-&trans    &trans    &trans     &trans  &trans  &trans  &MOD_TAP RIGHT_CONTROL N1  &kp N2  &kp N3  &kp N0
+&kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &MOD_TAP RIGHT_CONTROL N4  &kp N5  &kp N6  &trans
+&trans    &trans    &trans     &trans  &trans  &trans  &MOD_TAP RIGHT_ALT N1      &kp N2  &kp N3  &kp N0
                                &trans  &trans  &trans  &trans
             >;
         };
