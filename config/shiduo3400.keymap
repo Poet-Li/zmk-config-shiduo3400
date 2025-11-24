@@ -24,47 +24,6 @@
     combos {
         compatible = "zmk,combos";
 
-        COMBO_EXCLAMATION {
-            bindings = <&kp EXCLAMATION>;
-            key-positions = <0 1>;
-        };
-
-        COMBO_AT_ {
-            bindings = <&kp AT_SIGN>;
-            key-positions = <1 2>;
-        };
-
-        COMBO_HASH {
-            bindings = <&kp HASH>;
-            key-positions = <2 3>;
-        };
-
-        COMBO_DOLLAR {
-            bindings = <&kp DOLLAR>;
-            key-positions = <3 4>;
-        };
-
-        COMBO_PERCENT {
-            bindings = <&kp PERCENT>;
-            key-positions = <4 5>;
-        };
-
-        COMBO_CARET {
-            bindings = <&kp CARET>;
-            key-positions = <6 5>;
-        };
-
-        COMBO_AMPERSAND {
-            bindings = <&kp AMPERSAND>;
-            key-positions = <6 7>;
-            timeout-ms = <30>;
-        };
-
-        COMBO_ASTERISK {
-            bindings = <&kp ASTERISK>;
-            key-positions = <8 7>;
-        };
-
         COMBO_SEMICOLON {
             bindings = <&kp SEMICOLON>;
             key-positions = <8 19>;
