@@ -229,17 +229,17 @@
 
         ctrl {
             bindings = <&kp LCTRL>;
-            key-positions = <13 16>;
+            key-positions = <14 15>;
         };
 
         alt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <23 26>;
+            key-positions = <13 16>;
         };
 
         gui {
             bindings = <&kp LEFT_GUI>;
-            key-positions = <14 15>;
+            key-positions = <23 26>;
         };
 
         toggleAlterLayer {
