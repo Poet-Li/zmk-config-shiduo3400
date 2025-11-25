@@ -19,6 +19,13 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        tapDanceBootloader: tapDanceBootloader {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAPDANCEBOOTLOADER";
+            #binding-cells = <0>;
+            bindings = <&none>, <&bootloader>;
+        };
     };
 
     combos {
@@ -115,7 +122,7 @@
         };
 
         bootloader {
-            bindings = <&bootloader>;
+            bindings = <&tapDanceBootloader>;
             key-positions = <9 19 29>;
             layers = <2>;
         };
