@@ -2,26 +2,17 @@
 
 if BOARD_SHIDUO3400
 
-config BOARD
-	default "shiduo3400"
-
 config ZMK_KEYBOARD_NAME
 	default "shiduo3400"
 
-if USB
+if USB_DEVICE_STACK
 
 config USB_NRFX
-	default y
+    default y
 
-config USB_DEVICE_STACK
-	default y
-
-endif # USB
+endif # USB_DEVICE_STACK
 
 config BT_CTLR
 	default BT
-
-config ZMK_BLE
-	default y
 
 endif # BOARD_SHIDUO3400
