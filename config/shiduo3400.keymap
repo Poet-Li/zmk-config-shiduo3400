@@ -10,9 +10,9 @@
 
 / {
     behaviors {
-        MY_MOD_TAP: MY_MOD_TAP {
+        MY_MT: MY_MT {
             compatible = "zmk,behavior-hold-tap";
-            label = "MY_MOD_TAP";
+            label = "MY_MT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
