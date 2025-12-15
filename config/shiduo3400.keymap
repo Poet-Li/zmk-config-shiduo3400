@@ -280,7 +280,7 @@
         default_layer {
             bindings = <
 &kp Q                    &kp W  &kp E  &kp R                &kp T                &kp Y                &kp U                &kp I      &kp O    &kp P
-&MY_MOD_TAP LEFT_CONTROL A  &kp S  &kp D  &MY_MOD_TAP LEFT_ALT F  &MY_MOD_TAP LEFT_GUI G  &MY_MOD_TAP LEFT_GUI H  &MY_MOD_TAP LEFT_ALT J  &kp K      &kp L    &MY_MOD_TAP LEFT_CONTROL ENTER
+&MY_MT LEFT_CONTROL A  &kp S  &kp D  &MY_MT LEFT_ALT F  &MY_MT LEFT_GUI G  &MY_MT LEFT_GUI H  &MY_MT LEFT_ALT J  &kp K      &kp L    &MY_MT LEFT_CONTROL ENTER
 &kp Z                    &kp X  &kp C  &kp V                &kp B                &kp N                &kp M                &kp COMMA  &kp DOT  &kp SLASH
                                        &mo 1                &kp SPACE            &kp BACKSPACE        &kp LEFT_SHIFT
             >;
@@ -289,7 +289,7 @@
         alter_layer {
             bindings = <
 &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &kp N7                &kp N8  &kp N9  &trans
-&trans    &trans    &trans  &trans     &trans  &trans  &MY_MOD_TAP LEFT_ALT N4  &kp N5  &kp N6  &trans
+&trans    &trans    &trans  &trans     &trans  &trans  &MY_MT LEFT_ALT N4  &kp N5  &kp N6  &trans
 &trans    &trans    &trans  &trans     &trans  &trans  &kp N1                &kp N2  &kp N3  &kp N0
                             &trans     &trans  &trans  &trans
             >;
